@@ -1,0 +1,108 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    footer {
+        position: static;
+    }
+}
+
+
+/* Additional styles for articles page */
+
+#search {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.article {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.article h3 {
+    margin-top: 0;
+}
+
+.article button {
+    margin-right: 10px;
+    padding: 10px;
+}
+
+/* Additional styles for workouts and diets pages */
+
+#search {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.article, .workout, .diet {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.article h3, .workout h3, .diet h3 {
+    margin-top: 0;
+}
+
+.article button, .workout button, .diet button {
+    margin-right: 10px;
+    padding: 10px;
+}
